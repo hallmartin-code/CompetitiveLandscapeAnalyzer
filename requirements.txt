@@ -1,0 +1,25 @@
+# Competitive Intelligence One-Pager Generator
+# Python 3.10+ (developed and tested on 3.14)
+
+# --- Core data model ---------------------------------------------------------
+pydantic>=2.9,<3
+
+# --- Document ingestion ------------------------------------------------------
+pdfplumber>=0.11          # PDF text, tables and metadata (pulls pdfminer.six)
+python-pptx>=1.0          # PPTX slides, tables and speaker notes
+
+# --- Reporting ---------------------------------------------------------------
+reportlab>=4.2            # one-page PDF rendering
+pillow>=10.0              # favicon generation and the brand mark
+
+# --- Model access ------------------------------------------------------------
+anthropic>=1.0,<2         # Messages API: structured outputs + server-side web search
+
+# --- Interface ---------------------------------------------------------------
+streamlit>=1.38           # optional; the CLI (cli.py) works without it
+
+# --- Configuration -----------------------------------------------------------
+python-dotenv>=1.0        # optional .env loading
+
+# --- Tests -------------------------------------------------------------------
+pytest>=8.0

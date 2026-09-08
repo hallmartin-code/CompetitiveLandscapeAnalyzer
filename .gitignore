@@ -1,0 +1,18 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated reports — outputs are per-run artefacts, not source.
+# samples/example_output/ is committed deliberately as a worked example.
+outputs/
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

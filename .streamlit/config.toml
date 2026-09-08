@@ -1,0 +1,40 @@
+# Streamlit configuration for both local and Railway runs.
+# Port and address are passed on the command line (Procfile) because Railway
+# injects $PORT at runtime and TOML cannot read environment variables.
+
+[server]
+headless = true
+# Serves ./static at /app/static/<file>, so the generated favicon set is
+# reachable by URL as well as inline. The app itself inlines its icons, so a
+# proxy that rewrites this prefix cannot break the tab icon.
+enableStaticServing = true
+# Railway terminates TLS and proxies to the container. Streamlit's CORS and
+# XSRF checks compare against the internal origin, not the public one, which
+# breaks the file uploader behind that proxy -- and file upload is the app's
+# core function. Both are disabled deliberately; access control is handled by
+# the APP_PASSWORD gate in app.py instead.
+enableCORS = false
+enableXsrfProtection = false
+# Pitch decks are routinely 20-40MB.
+maxUploadSize = 60
+maxMessageSize = 60
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+# TEN Capital Network brand. Kept in step with ui/theme.py BRAND, which is the
+# source of truth -- these values only set the first paint before the injected
+# stylesheet loads, so a mismatch shows as a flash of the wrong palette.
+base = "dark"
+primaryColor = "#EE5A4E"
+backgroundColor = "#0B1526"
+secondaryBackgroundColor = "#101E33"
+textColor = "#F3F6FA"
+linkColor = "#35BEBB"
+
+[client]
+# Show errors in the UI: a silent failure on a deployed analyst tool is worse
+# than an ugly one.
+showErrorDetails = true
+toolbarMode = "minimal"

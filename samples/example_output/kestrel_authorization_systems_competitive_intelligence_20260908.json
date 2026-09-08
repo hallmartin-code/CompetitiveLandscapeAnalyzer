@@ -1,0 +1,1718 @@
+{
+  "schema_version": "1.0",
+  "user": {
+    "name": null,
+    "email": null
+  },
+  "company": {
+    "name": "Kestrel Authorization Systems",
+    "website": "kestrelauth.example",
+    "sector": "Healthcare IT",
+    "subsector": "Revenue cycle / prior authorization automation",
+    "stage": "Seed"
+  },
+  "analysis": {
+    "differentiation_score": 31,
+    "confidence_score": 0.776,
+    "band": "Commodity / highly vulnerable",
+    "competitive_position": "KestrelPA has credible early proof — $840K ARR, 8 clinics, 142K authorisations and a claimed 91% vs 79% first-pass lift — but every one of those figures is an uncorroborated deck claim, and the deck establishes no funding, growth rate or user base. Against the set, it is behind on the dimensions that actually decide PA deals: channel (EHR integration unsigned while SamaCare has GPO/EHR and Infinx has Epic), price (Availity is free, EHR modules are bundled against a $105K ACV), and IP (application pending vs Valer's granted portal-automation patents). The bull case rests on a narrow specialty exception-queue wedge and an accumulating payer rules corpus; neither is yet defensible against a well-funded attacker or an EHR vendor that controls the chart.",
+    "recommended_positioning": "For orthopedic, GI and cardiology clinics, Kestrel is the autonomous prior authorization layer that returns decisions in hours, not days, unlike in-house staff on payer portals, because its specialty-specific packet logic compounds per submission.",
+    "competitor_count": 12,
+    "score_explanation": "31/100 — Commodity / highly vulnerable. Weakest: distribution / gtm, proprietary data / ip. 2 unevidenced claim(s) were excluded from scoring.",
+    "category_scores": [
+      {
+        "name": "Product / Technology",
+        "weight": 20,
+        "achievement": 0.311,
+        "weighted_points": 6.21,
+        "rationale": "Behind on technology differentiation, scalability.",
+        "evidence_backed": false
+      },
+      {
+        "name": "Customer Value Proposition",
+        "weight": 15,
+        "achievement": 0.315,
+        "weighted_points": 4.73,
+        "rationale": "Behind on price advantage, ease of adoption.",
+        "evidence_backed": true
+      },
+      {
+        "name": "Competitive Performance",
+        "weight": 15,
+        "achievement": 0.432,
+        "weighted_points": 6.49,
+        "rationale": "Leads on performance advantage.",
+        "evidence_backed": false
+      },
+      {
+        "name": "Distribution / GTM",
+        "weight": 10,
+        "achievement": 0.202,
+        "weighted_points": 2.02,
+        "rationale": "Behind on distribution advantage, customer relationships.",
+        "evidence_backed": true
+      },
+      {
+        "name": "Proprietary Data / IP",
+        "weight": 10,
+        "achievement": 0.24,
+        "weighted_points": 2.4,
+        "rationale": "Behind on proprietary data, intellectual property.",
+        "evidence_backed": true
+      },
+      {
+        "name": "Switching Costs / Network Effects",
+        "weight": 10,
+        "achievement": 0.263,
+        "weighted_points": 2.63,
+        "rationale": "Behind on switching costs, network effects.",
+        "evidence_backed": false
+      },
+      {
+        "name": "Market Positioning",
+        "weight": 10,
+        "achievement": 0.333,
+        "weighted_points": 3.32,
+        "rationale": "Behind on brand advantage.",
+        "evidence_backed": false
+      },
+      {
+        "name": "Sustainability of Advantage",
+        "weight": 10,
+        "achievement": 0.345,
+        "weighted_points": 3.45,
+        "rationale": "1 advantage(s) identified, none rated highly durable against a funded competitor.",
+        "evidence_backed": false
+      }
+    ],
+    "unevidenced_claims_discounted": [
+      "Claimed differentiation is an uncited superlative: \"\"10x faster than the manual process\"; \"the only solution purpose-built for the specialty c\"",
+      "Performance advantage: company claim without external corroboration"
+    ]
+  },
+  "company_profile": {
+    "company_name": {
+      "value": "Kestrel Authorization Systems",
+      "evidence_type": "stated_fact",
+      "confidence": 0.97,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 1",
+          "url": null,
+          "excerpt": "Kestrel Authorization Systems"
+        }
+      ]
+    },
+    "website": {
+      "value": "kestrelauth.example",
+      "evidence_type": "stated_fact",
+      "confidence": 0.93,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 1",
+          "url": null,
+          "excerpt": "Seed round | Austin, TX | kestrelauth.example"
+        }
+      ]
+    },
+    "headquarters": {
+      "value": "Austin, TX",
+      "evidence_type": "stated_fact",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 1",
+          "url": null,
+          "excerpt": "Seed round | Austin, TX"
+        }
+      ]
+    },
+    "sector": {
+      "value": "Healthcare IT",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.55,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "",
+          "url": null,
+          "excerpt": "Derived from product context; sector never named in deck"
+        }
+      ]
+    },
+    "subsector": {
+      "value": "Revenue cycle / prior authorization automation",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.55,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "",
+          "url": null,
+          "excerpt": "autonomous prior authorization for specialty clinics (Slide 1)"
+        }
+      ]
+    },
+    "product_category": {
+      "value": "Autonomous prior authorization software for specialty clinics",
+      "evidence_type": "company_claim",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 1",
+          "url": null,
+          "excerpt": "KestrelPA — autonomous prior authorization for specialty clinics"
+        }
+      ]
+    },
+    "core_product": {
+      "value": "KestrelPA: reads the chart, assembles the clinical packet, submits to payer via FHIR with portal-automation fallback; staff work an exception queue",
+      "evidence_type": "company_claim",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 4",
+          "url": null,
+          "excerpt": "Submits via FHIR where available, falls back to portal automation elsewhere"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 4",
+          "url": null,
+          "excerpt": "Conflicting value: KestrelPA reads the chart, assembles the clinical packet, and submits to the payer Payer-specific rules engine covering 240 plans across ortho, GI and cardiology Submits via FHIR where available, falls back to portal automation elsewhere Clinic staff review an exception queue ins"
+        }
+      ]
+    },
+    "problem_addressed": {
+      "value": "Prior auth burden: 13.7 hrs/physician/week (AMA 2024 survey); 18-22% first-submission denial rate driving rework and care delays",
+      "evidence_type": "stated_fact",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 2",
+          "url": null,
+          "excerpt": "Prior authorization consumes 13.7 hours per physician per week (AMA 2024 survey)"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 2",
+          "url": null,
+          "excerpt": "Conflicting value: Prior authorization consumes 13.7 hours per physician per week (AMA 2024 survey) 94% of physicians report care delays caused by PA; 24% report serious adverse events Average specialty clinic employs 1 FTE per 3 providers purely for authorization work Denials on first submission r"
+        }
+      ]
+    },
+    "target_customer": {
+      "value": "Specialty clinics in orthopedics, GI and cardiology",
+      "evidence_type": "stated_fact",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 5",
+          "url": null,
+          "excerpt": "8 paying specialty clinics; 3 in ortho, 3 GI, 2 cardiology"
+        }
+      ]
+    },
+    "buyer": {
+      "value": "Practice administrators",
+      "evidence_type": "stated_fact",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 9",
+          "url": null,
+          "excerpt": "Direct sales to practice administrators"
+        }
+      ]
+    },
+    "end_user": {
+      "value": "Clinic authorization/back-office staff reviewing the exception queue",
+      "evidence_type": "stated_fact",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 4",
+          "url": null,
+          "excerpt": "Clinic staff review an exception queue instead of doing data entry"
+        }
+      ]
+    },
+    "primary_use_cases": {
+      "value": "Automated clinical packet assembly and payer submission; denial reduction; exception-queue triage",
+      "evidence_type": "company_claim",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 4",
+          "url": null,
+          "excerpt": "reads the chart, assembles the clinical packet, and submits to the payer"
+        }
+      ]
+    },
+    "business_model": {
+      "value": "SaaS subscription per provider per month plus per-authorization usage fee; land-and-expand across specialty lines",
+      "evidence_type": "stated_fact",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 6",
+          "url": null,
+          "excerpt": "SaaS subscription per provider per month, plus per-authorization usage fee"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 6",
+          "url": null,
+          "excerpt": "Conflicting value: SaaS subscription per provider per month, plus per-authorization usage fee Land with a single specialty line, expand across the practice Current ARR $840K; average contract value $105K Gross margin 71% and improving as portal automation gives way to FHIR"
+        }
+      ]
+    },
+    "pricing_model": {
+      "value": "Not publicly disclosed — negotiated per practice, no list pricing",
+      "evidence_type": "company_claim",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 6",
+          "url": null,
+          "excerpt": "We do not publish list pricing. Deals are negotiated per practice."
+        }
+      ]
+    },
+    "revenue": {
+      "value": "$840K ARR; average contract value $105,000",
+      "evidence_type": "company_claim",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 6",
+          "url": null,
+          "excerpt": "Current ARR $840K; average contract value $105K"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 6",
+          "url": null,
+          "excerpt": "Conflicting value: ARR $840K; average contract value $105K Gross margin 71% and improving as portal automatio"
+        }
+      ]
+    },
+    "revenue_growth": {
+      "value": null,
+      "evidence_type": "missing",
+      "confidence": 0.0,
+      "sources": []
+    },
+    "customers": {
+      "value": "8 paying specialty clinics (3 ortho, 3 GI, 2 cardiology)",
+      "evidence_type": "company_claim",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 5",
+          "url": null,
+          "excerpt": "8 paying specialty clinics"
+        }
+      ]
+    },
+    "users": {
+      "value": null,
+      "evidence_type": "missing",
+      "confidence": 0.0,
+      "sources": []
+    },
+    "partnerships": {
+      "value": "Two channel conversations with specialty-focused EHR vendors; nothing signed",
+      "evidence_type": "company_claim",
+      "confidence": 0.7,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 9",
+          "url": null,
+          "excerpt": "Two channel conversations underway with specialty-focused EHR vendors"
+        }
+      ]
+    },
+    "distribution_model": {
+      "value": "Direct sales to practice administrators (62-day average cycle); specialty society conferences as top-of-funnel; EHR channel unsigned",
+      "evidence_type": "company_claim",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 9",
+          "url": null,
+          "excerpt": "Direct sales to practice administrators; 62-day average sales cycle"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 9",
+          "url": null,
+          "excerpt": "Conflicting value: Direct sales to practice administrators; 62-day average sales cycle Two channel conversations underway with specialty-focused EHR vendors Specialty society conferences as primary top-of-funnel"
+        }
+      ]
+    },
+    "geographic_markets": {
+      "value": "United States",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.55,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "",
+          "url": null,
+          "excerpt": "Inferred from CMS rule, HIPAA BAAs and US payer plan coverage"
+        }
+      ]
+    },
+    "funding_raised": {
+      "value": null,
+      "evidence_type": "missing",
+      "confidence": 0.0,
+      "sources": []
+    },
+    "current_round": {
+      "value": "Seed, $6M, open with no lead committed",
+      "evidence_type": "stated_fact",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 11",
+          "url": null,
+          "excerpt": "Round is open; lead not yet committed"
+        }
+      ]
+    },
+    "valuation": {
+      "value": null,
+      "evidence_type": "missing",
+      "confidence": 0.0,
+      "sources": []
+    },
+    "key_ip": {
+      "value": "US patent application FILED (pending, not granted) covering adaptive packet assembly; proprietary payer rules corpus",
+      "evidence_type": "stated_fact",
+      "confidence": 0.85,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 7",
+          "url": null,
+          "excerpt": "US patent application filed (17/xxx,xxx) covering adaptive packet assembly"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 7",
+          "url": null,
+          "excerpt": "Conflicting value: Proprietary payer rules corpus: 240 plans, updated from 142K live submissions US patent application filed (17/xxx,xxx) covering adaptive packet assembly Every denial is labelled training data — the corpus compounds with volume SOC 2 Type II complete; HIPAA BAAs in place with all"
+        }
+      ]
+    },
+    "regulatory_advantages": {
+      "value": "SOC 2 Type II complete; HIPAA BAAs with all customers; CMS-0057-F API mandate (Jan 2027) as market tailwind, not an exclusive advantage",
+      "evidence_type": "company_claim",
+      "confidence": 0.65,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "Slides 3, 7",
+          "url": null,
+          "excerpt": "SOC 2 Type II complete; HIPAA BAAs in place with all customers"
+        }
+      ]
+    },
+    "proprietary_data": {
+      "value": "Payer rules corpus covering 240 plans, updated from 142K live submissions; denials labelled as training data",
+      "evidence_type": "company_claim",
+      "confidence": 0.75,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 7",
+          "url": null,
+          "excerpt": "Proprietary payer rules corpus: 240 plans, updated from 142K live submissions"
+        }
+      ]
+    },
+    "network_effects": {
+      "value": "No true network effect; a data-scale flywheel (more submissions improve the rules corpus) claimed by the company",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.5,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "",
+          "url": null,
+          "excerpt": "the corpus compounds with volume (Slide 7)"
+        }
+      ]
+    },
+    "switching_costs": {
+      "value": "Likely moderate: payer-specific rules configuration and embedded staff workflow, but no stated contract lock-in or EHR integration depth",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.4,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "",
+          "url": null,
+          "excerpt": "Inferred from Slides 4 and 6; deck makes no switching-cost claim"
+        }
+      ]
+    },
+    "claimed_differentiation": {
+      "value": "\"10x faster than the manual process\"; \"the only solution purpose-built for the specialty clinic exception queue\"",
+      "evidence_type": "company_claim",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null,
+          "excerpt": "KestrelPA is 10x faster than the manual process... We are the only solution purpose-built for the specialty clinic exception queue"
+        }
+      ]
+    },
+    "funding_stage": {
+      "value": "Seed",
+      "evidence_type": "stated_fact",
+      "confidence": 0.95,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 1",
+          "url": null,
+          "excerpt": "Seed round | Austin, TX"
+        }
+      ]
+    },
+    "raise_amount": {
+      "value": "$6M for 18 months runway; targets 40 clinics and $4M ARR",
+      "evidence_type": "stated_fact",
+      "confidence": 0.9,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 11",
+          "url": null,
+          "excerpt": "Raising $6M seed to reach 40 clinics and $4M ARR"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 11",
+          "url": null,
+          "excerpt": "Conflicting value: Raising $6M seed to reach 40 clinics and $4M ARR Use of proceeds: 45% engineering, 30% go-to-market, 25% payer integrations 18 months of runway at planned burn Round is open; lead not yet committed"
+        }
+      ]
+    },
+    "traction": {
+      "value": "8 paying specialty clinics; 3 in ortho, 3 GI, 2 cardiology 142,000 authorizations processed since January 2025 First-pass approval rate of 91% vs 79% clinic baseline (measured across 4 pilots) Median turnaround 4.2 hours vs 3.1 days pre-deployment Net revenue retention 118% over",
+      "evidence_type": "company_claim",
+      "confidence": 0.45,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 5",
+          "url": null,
+          "excerpt": ""
+        },
+        {
+          "source_type": "UNKNOWN",
+          "locator": "Slides 5, 6, 12",
+          "url": null,
+          "excerpt": "Conflicting value: 142,000 authorizations since Jan 2025; 91% first-pass approval vs 79% baseline (4 pilots); 4.2h vs 3.1d turnaround; 118% NRR; 71% gross margin; 14-month CAC payback"
+        }
+      ]
+    },
+    "known_competitors": {
+      "value": "Availity, Waystar (legacy clearinghouses); payer-side point solutions; Cohere and Rhyme named only in speaker notes; manual staff process is the de facto incumbent",
+      "evidence_type": "stated_fact",
+      "confidence": 0.8,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null,
+          "excerpt": "Legacy clearinghouses (Availity, Waystar) — transaction plumbing, not clinical workflow"
+        },
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null,
+          "excerpt": "Conflicting value: Legacy clearinghouses (Availity, Waystar) — transaction plumbing, not clinical workflow Point solutions focused on payer side rather than the specialty clinic KestrelPA is 10x faster than the manual process and far easier to adopt We are the only solution purpose-built for the sp"
+        }
+      ]
+    }
+  },
+  "profile_gaps": [
+    "revenue_growth",
+    "users",
+    "funding_raised",
+    "valuation"
+  ],
+  "extraction_notes": [
+    "Slide 8 body omits Cohere and Rhyme, which the speaker notes concede are \"real\" competitors — the public competitive slide understates the field and does not address incumbents moving down-market.",
+    "\"10x faster\" and \"only solution purpose-built for the specialty clinic exception queue\" (Slide 8) are stated as fact with no source or methodology; treat as unverified marketing.",
+    "Patent is an application only (Slide 7 notes: \"Patent is filed, not granted\"); no granted IP exists. Application number is redacted, so it cannot be checked.",
+    "The 1-FTE-per-3-providers statistic on Slide 2 is presented alongside a sourced AMA figure but derives from the company's own 40-clinic discovery (per notes) — not a published statistic.",
+    "Efficacy metrics (91% vs 79%, 4.2h vs 3.1d) are measured across only 4 pilot sites out of 8 customers; small-n and self-reported.",
+    "$840K ARR ÷ 8 clinics = exactly $105K, suggesting ACV is a derived average rather than an independently measured figure; Slide 12 also targets ACV declining to $100K while ARR grows ~5x, implying heavy new-logo dependence.",
+    "Absent fields an investor would expect: total funding raised to date, valuation/round terms, list pricing, churn/logo retention, burn rate in dollars, revenue growth rate, and named EHR channel partners.",
+    "Key execution gaps disclosed in notes: no lead investor committed, no full-time sales leader (CEO carrying quota), and no signed channel partnerships.",
+    "Regulatory tailwind (CMS-0057-F) is available to all entrants, including Availity and Waystar; it is not a defensible advantage for Kestrel."
+  ],
+  "competitors": [
+    {
+      "name": "In-house authorization staff working payer portals and fax (manual process)",
+      "website": "Unknown",
+      "category": "substitute",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "The practice administrator's own payroll line",
+      "product": "Human coordinators keying data into payer portals, faxing clinical notes, phoning for status",
+      "positioning": "Known, controllable, no procurement or IT project required",
+      "primary_use_case": "This is what the eight paying clinics and every prospect use today; the purchase decision is software vs. hiring or retaining another auth coordinator.",
+      "business_model": "Salary and benefits (opex), scales linearly with volume",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "Not publicly disclosed — this is the default incumbent workflow in specialty clinics, not a vendor; no attributable mark",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "Internal hiring; specialty-society job boards and staffing agencies",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Zero integration risk and no vendor security review",
+        "Handles every payer edge case and non-standard request without engineering",
+        "Budget already approved; no new spend decision needed (analyst_inference)"
+      ],
+      "weaknesses": [
+        "13.7 hrs/physician/week burden and 18-22% first-submission denial rate (Slide 2, cites AMA 2024 survey)",
+        "Turnaround measured in days vs. Kestrel's claimed 4.2h median (Slide 5, company_claim)",
+        "Staff turnover and wage inflation in back-office roles (analyst_inference)"
+      ],
+      "defensibility": "Status-quo bias, no switching cost, administrator control over own staff",
+      "threat_level": "high",
+      "threat_rationale": "The deck itself concedes the manual process is the de facto incumbent, and 'keep the coordinator' is the cheapest reversible option for a practice administrator.",
+      "relevance": 0.95,
+      "confidence": 0.85,
+      "named_in_deck": true,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null
+        }
+      ]
+    },
+    {
+      "name": "Waystar",
+      "website": "https://www.waystar.com",
+      "category": "incumbent",
+      "headquarters": "Lehi, Utah and Louisville, Kentucky, USA",
+      "founded_year": "2000",
+      "target_customer": "Hospitals, health systems and physician practices across specialties (US)",
+      "product": "Cloud RCM platform: claims/clearinghouse, eligibility, prior authorization, denial prevention and recovery",
+      "positioning": "'The autonomous revenue cycle' — one vendor for the whole payment workflow",
+      "primary_use_case": "Already owns the clearinghouse/RCM budget line at specialty practices and is layering generative-AI authorization and denial-prevention (AltitudeAI) onto that installed base.",
+      "business_model": "SaaS/transaction-based RCM subscription (public company, NASDAQ: WAY)",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Q3 2024 revenue $240 million, +22% YoY (SEC 8-K); Q1 2025 revenue growth 14% YoY (SEC 8-K); Q3 2025 adjusted EBITDA $112",
+      "traction": "Nasdaq-listed (WAY); prior authorization is one module inside a full RCM/clearinghouse suite — incumbent distribution in",
+      "customer_count": "1,306 clients contributed over $100,000 of LTM revenue as of Q3 2025, +11% YoY (SEC 8-K)",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Public equity; IPO on Nasdaq in June 2024 (; proceeds figure not verified here)",
+      "valuation": "Market capitalization $3.81B as of 26 June 2026 (PitchBook)",
+      "investors": [
+        "EQT",
+        "CPP Investments",
+        "Bain Capital"
+      ],
+      "distribution": "Large direct enterprise sales force, EHR/partner integrations, Google Cloud partnership",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Existing contract, connectivity and payer network at the same practices Kestrel must sell into (analyst_inference)",
+        "Bundling: authorization can be sold as an add-on module rather than a new line item",
+        "Scale and public-market capital to fund AI build-out (https://www.prnewswire.com/news-releases/waystar-advances-ai-leadership-with-next-generation-denial-prevention-and-reimbursement-recovery-innovations-302557581.html)"
+      ],
+      "weaknesses": [
+        "Product breadth means little specialty-specific clinical packet logic for ortho/GI/cardiology (analyst_inference)",
+        "Enterprise/health-system orientation leaves small specialty clinics under-served (analyst_inference)",
+        "Legacy clearinghouse architecture; Kestrel claims chart-reading autonomy vs. form-filling (DECK s8, company_claim)"
+      ],
+      "defensibility": "Payer connectivity, switching costs on the billing rail, incumbent contract inertia",
+      "threat_level": "high",
+      "threat_rationale": "Named in the deck as a competitor and already holds the customer relationship and budget Kestrel is attacking with only $840K ARR.",
+      "relevance": 0.85,
+      "confidence": 0.86,
+      "named_in_deck": true,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.sec.gov/Archives/edgar/data/1990354/000110465924",
+          "url": "https://www.sec.gov/Archives/edgar/data/1990354/000110465924114786/tm2427703d1_ex99-1.htm"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.sec.gov/Archives/edgar/data/1990354/000110465925",
+          "url": "https://www.sec.gov/Archives/edgar/data/1990354/000110465925042494/tm2513549d1_ex99-1.htm"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.sec.gov/Archives/edgar/data/1990354/000199035425",
+          "url": "https://www.sec.gov/Archives/edgar/data/1990354/000199035425000030/way102925-8xkex991.htm"
+        }
+      ]
+    },
+    {
+      "name": "SamaCare",
+      "website": "https://www.prnewswire.com/news-releases/samacare-launches-samacare-plus-ai-driven-touchless-prior-authorizations-built-for-provider-control-302621259.html",
+      "category": "direct",
+      "headquarters": "San Francisco, California, USA",
+      "founded_year": "Unknown",
+      "target_customer": "Specialty practices (retina/ophthalmology, oncology, rheumatology, neurology, GI) — buy-and-bill drug PA",
+      "product": "Cloud PA workflow platform plus SamaCare Plus AI automation for medical-benefit drug authorizations",
+      "positioning": "Leading prior authorization platform for medical benefit drugs, keeping providers in control",
+      "primary_use_case": "Sells prior-authorization software to specialty physician practices through the same practice-administrator buyer, with AI 'touchless' PA and specialty-EHR distribution already in place.",
+      "business_model": "Not publicly disclosed (SaaS/platform; $17M Series B raised)",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "$17 million Series B was oversubscribed (company press release, May 2024 — ); positioned on medical-benefit/specialty dr",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "$17 million Series B, announced 21 May 2024, led by Questa Capital",
+      "valuation": "Not publicly disclosed",
+      "investors": [
+        "Questa Capital",
+        "Vive Collective",
+        "South Park Commons"
+      ],
+      "distribution": "Specialty GPO channel (AmerisourceBergen/Cencora), ModMed and NextGen EHR integrations, direct",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Live EHR-marketplace and GPO channels Kestrel explicitly does not yet have (Slide 9: EHR channel unsigned)",
+        "Large proprietary PA dataset: >1M authorizations, $6.2B in drug PAs processed (https://www.prnewswire.com/news-releases/samacare-surpasses-6-2-billion-in-medical-benefit-drug-prior-authorizations-highlighting-the-proprietary-data-powering-samacare-artificial-intelligence-platform-302688907.html)",
+        "Series B capital and multi-specialty reference base vs. Kestrel's 8 clinics"
+      ],
+      "weaknesses": [
+        "Anchored on physician-administered drug PA, not procedure/imaging/surgical auth central to ortho and cardiology (analyst_inference)",
+        "Historically guided-portal plus human expert services rather than fully autonomous packet assembly (analyst_inference)",
+        "Specialty coverage overlaps only partially with ortho/GI/cardiology (analyst_inference)"
+      ],
+      "defensibility": "Payer-form corpus, GPO and EHR channel lock-in, brand in specialty drug access",
+      "threat_level": "high",
+      "threat_rationale": "Closest analogue in product, buyer and business model, with distribution and data scale Kestrel lacks at seed stage.",
+      "relevance": 0.85,
+      "confidence": 0.8,
+      "named_in_deck": false,
+      "sources": [
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "",
+          "url": "https://www.prnewswire.com/news-releases/samacare-launches-samacare-plus-ai-driven-touchless-prior-authorizations-built-for-provider-control-302621259.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.prnewswire.com/news-releases/samacare-secures-17",
+          "url": "https://www.prnewswire.com/news-releases/samacare-secures-17m-series-b-investment-to-scale-specialty-drug-prior-authorization-platform-302150684.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.crunchbase.com/organization/samacare",
+          "url": "https://www.crunchbase.com/organization/samacare"
+        }
+      ]
+    },
+    {
+      "name": "Infinx",
+      "website": "https://www.prnewswire.com/news-releases/infinx-prior-authorization-software-now-available-in-the-epic-app-orchard-301339686.html",
+      "category": "direct",
+      "headquarters": "San Jose, California, USA",
+      "founded_year": "Unknown",
+      "target_customer": "Hospitals, imaging centers, orthopedic and cardiology practices, laboratories",
+      "product": "Patient-access/RCM platform with prior-auth determination engine and automated submission, backed by offshore specialist teams; acquired Glidian (2025)",
+      "positioning": "Technology plus service for the patient access and payment lifecycle",
+      "primary_use_case": "Sells AI prior-authorization plus outsourced auth staffing to orthopedic, cardiology, imaging and lab practices — the identical workflow and budget, bundled with people so the ROI comparison is against Kestrel's exception queue.",
+      "business_model": "Not publicly disclosed (software plus outsourced-services fees)",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "Sells software plus offshore expert staffing for prior auth and A/R — a hybrid tech+labour model that competes for the s",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "$194 million total raised (PitchBook)",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [
+        "Kohlberg Kravis Roberts",
+        "Norwest"
+      ],
+      "distribution": "Direct sales, Epic marketplace listing, GPO/association partnerships (e.g., Strategic Radiology)",
+      "geographic_reach": "United States (delivery centers offshore)",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Explicitly targets ortho and cardiology practices — Kestrel's exact segments (https://www.prnewswire.com/news-releases/scriptsender-and-infinx-healthcare-form-partnership-to-expedite-prior-authorization-requests-301077811.html)",
+        "Hybrid model absorbs the exception queue with its own labour, removing work Kestrel leaves to clinic staff",
+        "Consolidating the category via M&A (Glidian) (https://www.prnewswire.com/in/news-releases/glidian-joins-infinx-to-advance-prior-authorization-automation-and-expand-market-reach-302410345.html)"
+      ],
+      "weaknesses": [
+        "Services-heavy model carries lower gross margin and slower automation velocity (analyst_inference)",
+        "Offshore labour dependence raises quality and PHI-handling scrutiny (analyst_inference)",
+        "Broad RCM footprint dilutes specialty clinical-packet depth (analyst_inference)"
+      ],
+      "defensibility": "Payer rules library, labour cost arbitrage, GPO and Epic channel presence",
+      "threat_level": "high",
+      "threat_rationale": "Same specialties, same workflow, and a service wrapper that neutralises Kestrel's main objection (who works the exceptions).",
+      "relevance": 0.85,
+      "confidence": 0.75,
+      "named_in_deck": false,
+      "sources": [
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "",
+          "url": "https://www.prnewswire.com/news-releases/infinx-prior-authorization-software-now-available-in-the-epic-app-orchard-301339686.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://pitchbook.com/profiles/company/265787-02",
+          "url": "https://pitchbook.com/profiles/company/265787-02"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.crunchbase.com/organization/infinx-services",
+          "url": "https://www.crunchbase.com/organization/infinx-services"
+        }
+      ]
+    },
+    {
+      "name": "Valer (Voluware)",
+      "website": "https://www.prnewswire.com/news-releases/voluware-named-to-avia-connects-top-prior-authorization-companies-301707765.html",
+      "category": "direct",
+      "headquarters": "Huntington Beach, California, USA",
+      "founded_year": "Unknown",
+      "target_customer": "Mid-to-large hospitals, health systems and physician practices",
+      "product": "VALER cloud platform automating PA submission, status verification, reporting and EHR synchronisation, including portal automation",
+      "positioning": "Comprehensive PA across all payer workflows and all service lines, customised per client EHR",
+      "primary_use_case": "Purpose-built prior-authorization and referral automation sold to physician practices and health systems across all specialties and payers — the same purchase decision and the same administrator budget.",
+      "business_model": "Not publicly disclosed (SaaS; growth investment from Hughes & Company)",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "23 total employees (PitchBook) — smallest direct comparator; rebranded from Voluware to Valer in January 2024; founded b",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "$9.7 million total raised (PitchBook)",
+      "latest_round": "Growth investment from Hughes & Company, announced 17 April 2023; amount not disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [
+        "Hughes & Company",
+        "EvoNexus"
+      ],
+      "distribution": "Direct sales, Epic App Orchard, reseller/partner network (Clearwave, Keena)",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Founded 2012 with a mature, all-payer portal-automation stack and granted US patents on web-portal automation (https://www.crunchbase.com/organization/valer)",
+        "Institutional growth capital and partner-led distribution",
+        "Directly attacks Kestrel's portal-fallback differentiator"
+      ],
+      "weaknesses": [
+        "Workflow automation rather than chart-reading clinical packet assembly (analyst_inference)",
+        "Customisation-per-client model slows deployment and scaling (analyst_inference)",
+        "Health-system focus may misfit small specialty clinics (analyst_inference)"
+      ],
+      "defensibility": "Portal-automation patents, payer workflow library, EHR integrations",
+      "threat_level": "high",
+      "threat_rationale": "Head-to-head on product category and buyer, with a decade of payer-workflow coverage Kestrel must replicate from 240 plans.",
+      "relevance": 0.8,
+      "confidence": 0.7,
+      "named_in_deck": false,
+      "sources": [
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "",
+          "url": "https://www.prnewswire.com/news-releases/voluware-named-to-avia-connects-top-prior-authorization-companies-301707765.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://pitchbook.com/profiles/company/99049-33",
+          "url": "https://pitchbook.com/profiles/company/99049-33"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.prnewswire.com/news-releases/emerging-health-it-",
+          "url": "https://www.prnewswire.com/news-releases/emerging-health-it-leader-voluware-announces-growth-investment-from-hughes--company-301797796.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.businesswire.com/news/home/20240116934528/en/Pri",
+          "url": "https://www.businesswire.com/news/home/20240116934528/en/Prior-Authorization-Leader-Voluware-Unveils-New-Company-Brand-Valer"
+        }
+      ]
+    },
+    {
+      "name": "EHR-embedded prior authorization module (Epic, athenahealth, ModMed, Nextech)",
+      "website": "Unknown",
+      "category": "incumbent",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "The same specialty practices; sold to the administrator/owner as part of the platform",
+      "product": "Order-entry-linked authorization, eligibility and referral workflow inside the EHR/PM system",
+      "positioning": "One system of record, no third-party integration or extra vendor",
+      "primary_use_case": "The clinic's EHR already owns the chart, the order and the IT relationship, and can ship 'good enough' auth inside the existing subscription — the deck concedes its own EHR channel is unsigned.",
+      "business_model": "Bundled into per-provider EHR subscription or low-cost add-on module",
+      "pricing": "Not publicly disclosed — typically bundled into existing EHR/PM subscription (, )",
+      "revenue": "Not publicly disclosed",
+      "traction": "Not publicly disclosed. Composite category, not a single vendor. Decision-relevant point: authorization sits at order en",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "Existing customer base, annual renewal cycle, marketplace/app store gatekeeping",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Owns the chart data Kestrel needs and controls API access (analyst_inference)",
+        "Bundled pricing undercuts a $105K standalone ACV (Slide 6, company_claim)",
+        "CMS-0057-F (Jan 2027) forces payer APIs that EHR vendors can consume natively — the tailwind is not exclusive to Kestrel (Slides 3, 7)"
+      ],
+      "weaknesses": [
+        "Slow release cycles and shallow specialty-specific denial logic (analyst_inference)",
+        "Historically leaves the exception queue entirely manual (analyst_inference)",
+        "Specialty EHRs (ModMed, Nextech) more often partner than build (analyst_inference)"
+      ],
+      "defensibility": "System-of-record lock-in, data access control, bundled budget",
+      "threat_level": "high",
+      "threat_rationale": "Not a better product, but it controls the data pipe and the renewal conversation — a bundled module can end Kestrel's deal cycle without ever winning on merit.",
+      "relevance": 0.8,
+      "confidence": 0.55,
+      "named_in_deck": false,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "Slide 9",
+          "url": null
+        }
+      ]
+    },
+    {
+      "name": "Availity",
+      "website": "https://www.availity.com",
+      "category": "incumbent",
+      "headquarters": "Jacksonville, Florida, USA",
+      "founded_year": "2001",
+      "target_customer": "Providers of all sizes and health plans (two-sided network)",
+      "product": "Payer-provider connectivity network: eligibility, authorization submission and status, claims",
+      "positioning": "The neutral health information network connecting payers and providers",
+      "primary_use_case": "Owns the free, payer-funded provider portal where clinic staff already submit authorizations, making it the default zero-cost option in every budget conversation.",
+      "business_model": "Payer-funded (largely free to providers) plus premium provider products",
+      "pricing": "Not publicly disclosed — core provider portal access is offered free to healthcare professionals (Crunchbase description",
+      "revenue": "Not publicly disclosed",
+      "traction": "Company states it is one of the nation's largest real-time health information networks, facilitating billions of clinica",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "$200 million total raised (PitchBook)",
+      "latest_round": "Novo Holdings acquired Francisco Partners' minority stake, announced 7 July 2021; terms not disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [
+        "Novo Holdings",
+        "Francisco Partners",
+        "Blue Cross and Blue Shield of Minnesota",
+        "Elevance Health",
+        "Health Care Service Corporation"
+      ],
+      "distribution": "Embedded via health-plan portals; payers direct providers to it",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Effectively free to the clinic — hard to displace on ROI alone (analyst_inference)",
+        "Direct payer contracts and authorization connectivity at national scale",
+        "Already installed on every auth coordinator's desktop (analyst_inference)"
+      ],
+      "weaknesses": [
+        "Portal-centric: staff still assemble and key the clinical packet manually (analyst_inference)",
+        "No chart reading or specialty clinical logic (analyst_inference)",
+        "Payer-funded incentives limit provider-side workflow investment (analyst_inference)"
+      ],
+      "defensibility": "Payer contracts, network effects, incumbent zero-price position",
+      "threat_level": "medium",
+      "threat_rationale": "Named in the deck and ubiquitous, but it sets the price anchor rather than competing on automation depth.",
+      "relevance": 0.7,
+      "confidence": 0.78,
+      "named_in_deck": true,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.prnewswire.com/news-releases/novo-holdings-as-in",
+          "url": "https://www.prnewswire.com/news-releases/novo-holdings-as-invests-in-us-healthcare-it-company-availity-301326754.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.businesswire.com/news/home/20210707005200/en/Fra",
+          "url": "https://www.businesswire.com/news/home/20210707005200/en/Francisco-Partners-Announces-Sale-of-Minority-Stake-in-Availity"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://pitchbook.com/profiles/company/83041-93",
+          "url": "https://pitchbook.com/profiles/company/83041-93"
+        }
+      ]
+    },
+    {
+      "name": "Outsourced RCM/prior-auth BPO (e.g. AGS Health, Savista, Access Healthcare)",
+      "website": "Unknown",
+      "category": "substitute",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "Practices and health systems seeking to convert auth labour to variable cost",
+      "product": "Offshore/onshore staffed prior-authorization and RCM services, often with their own automation layer",
+      "positioning": "Guaranteed throughput and accountability, no software project",
+      "primary_use_case": "Practice administrators routinely outsource authorization work per-FTE or per-auth instead of buying software, and this is the alternative Kestrel's per-authorization fee is priced against.",
+      "business_model": "Per-FTE, per-transaction or percentage-of-collections services fees",
+      "pricing": "Not publicly disclosed — typically FTE-based or per-transaction service fees (, )",
+      "revenue": "Not publicly disclosed",
+      "traction": "Not publicly disclosed. Composite category, not a single vendor. AGS Health is named as a Waystar competitor in third-pa",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "Direct sales, RCM consultants, MSO and specialty-group relationships",
+      "geographic_reach": "United States delivery with offshore operations",
+      "partnerships": "Unknown",
+      "strengths": [
+        "Takes the whole exception queue off the clinic, including edge cases Kestrel leaves to staff (analyst_inference)",
+        "Variable cost with contractual SLAs is easier for administrators to approve (analyst_inference)",
+        "Existing RCM relationships give an incumbent budget line (analyst_inference)"
+      ],
+      "weaknesses": [
+        "Labour costs scale linearly; no first-pass-rate compounding (analyst_inference)",
+        "Turnaround typically days, not hours (analyst_inference)",
+        "PHI offshoring and quality-variance concerns (analyst_inference)"
+      ],
+      "defensibility": "Cost arbitrage, contractual lock-in, embedded RCM relationships",
+      "threat_level": "medium",
+      "threat_rationale": "Real and frequently chosen alternative that competes on the same line item, though it cannot match claimed turnaround or first-pass gains.",
+      "relevance": 0.7,
+      "confidence": 0.6,
+      "named_in_deck": false,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "market knowledge",
+          "url": null
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://pitchbook.com/profiles/company/51380-47",
+          "url": "https://pitchbook.com/profiles/company/51380-47"
+        }
+      ]
+    },
+    {
+      "name": "Tennr",
+      "website": "https://www.prnewswire.com/news-releases/healthcare-referrals-are-where-patients-get-lost-tennr-raises-101m-to-bring-the-visibility-our-system-desperately-needs-302485255.html",
+      "category": "emerging",
+      "headquarters": "New York, New York, USA",
+      "founded_year": "2021",
+      "target_customer": "Specialty providers, DME/home health, diagnostics and clinic back offices",
+      "product": "AI that reads inbound faxes/referral documents and automates intake, eligibility and benefits workflows",
+      "positioning": "Fixing where patients get lost in the referral pathway",
+      "primary_use_case": "Attacks the same specialty back-office budget — document intake, referrals, eligibility and benefits — and is expanding along the pathway that ends at prior authorization.",
+      "business_model": "Not publicly disclosed (SaaS)",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "Launched Tennr Network in June 2025 to add visibility to the referral-to-patient journey (company announcement); documen",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "$101 million Series C, announced 18 June 2025, led by IVP",
+      "valuation": "$605 million (Crunchbase News, June 2025)",
+      "investors": [
+        "IVP",
+        "Andreessen Horowitz",
+        "Lightspeed Venture Partners",
+        "GV",
+        "ICONIQ Growth"
+      ],
+      "distribution": "Direct sales, high-visibility brand and partner ecosystem",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "$101M Series C (IVP, a16z, Lightspeed, GV) — capital far beyond a seed competitor (https://www.prnewswire.com/news-releases/healthcare-referrals-are-where-patients-get-lost-tennr-raises-101m-to-bring-the-visibility-our-system-desperately-needs-302485255.html)",
+        "Owns the document-ingestion layer upstream of authorization",
+        "Already launched eligibility and benefits products, one step from PA (https://www.prnewswire.com/news-releases/tennr-launches-workspace-and-eligibility--benefits-management-solutions-to-tackle-healthcares-biggest-administrative-challenges-302400283.html)"
+      ],
+      "weaknesses": [
+        "No demonstrated payer-submission rules corpus for procedure PA (analyst_inference)",
+        "Breadth across many provider types dilutes ortho/GI/cardiology depth (analyst_inference)",
+        "Not currently positioned as a PA point solution (analyst_inference)"
+      ],
+      "defensibility": "Document-AI moat, capital, upstream position in the workflow",
+      "threat_level": "medium",
+      "threat_rationale": "Not yet a head-to-head PA product, but it consumes the same administrative budget and has the funding to enter within the investment horizon.",
+      "relevance": 0.6,
+      "confidence": 0.82,
+      "named_in_deck": false,
+      "sources": [
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "",
+          "url": "https://www.prnewswire.com/news-releases/healthcare-referrals-are-where-patients-get-lost-tennr-raises-101m-to-bring-the-visibility-our-system-desperately-needs-302485255.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.prnewswire.com/news-releases/healthcare-referral",
+          "url": "https://www.prnewswire.com/news-releases/healthcare-referrals-are-where-patients-get-lost-tennr-raises-101m-to-bring-the-visibility-our-system-desperately-needs-302485255.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://news.crunchbase.com/venture/biggest-funding-rounds-e",
+          "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-energy-defense-tech-ai-terrapower/"
+        }
+      ]
+    },
+    {
+      "name": "Doing nothing / waiting for the CMS-0057-F payer APIs (Jan 2027)",
+      "website": "Unknown",
+      "category": "substitute",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "Budget-constrained practice administrators facing a discretionary purchase",
+      "product": "Deferral: keep current staff and portals until the regulatory deadline forces payer-side change",
+      "positioning": "Zero cost, zero risk, regulation will solve it",
+      "primary_use_case": "Administrators can defer any purchase on the expectation that the federal API mandate plus their EHR will make PA cheaper and easier without a new vendor.",
+      "business_model": "No spend",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "Not publicly disclosed — deferral is a live buying objection rather than a vendor; the CMS-0057-F compliance timeline wa",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "Specialty society guidance, peer benchmarking, MGMA-style networks (analyst_inference)",
+      "geographic_reach": "United States",
+      "partnerships": "Unknown",
+      "strengths": [
+        "No capital or IT commitment in a thin-margin independent practice (analyst_inference)",
+        "The mandate is a market tailwind but explicitly not exclusive to Kestrel (Slides 3, 7)",
+        "Deferral risk is perceived as low because payers, not practices, bear the mandate (analyst_inference)"
+      ],
+      "weaknesses": [
+        "Ongoing 13.7 hrs/physician/week and 18-22% first-pass denial cost (Slide 2, AMA 2024)",
+        "Regulatory APIs standardise transport, not clinical packet assembly (analyst_inference)",
+        "Enforcement timing and payer readiness are uncertain (analyst_inference)"
+      ],
+      "defensibility": "Inertia and the absence of a forcing event before 2027",
+      "threat_level": "medium",
+      "threat_rationale": "Chief cause of lost or stalled deals at seed stage, though the same mandate ultimately favours automation vendors.",
+      "relevance": 0.6,
+      "confidence": 0.5,
+      "named_in_deck": false,
+      "sources": [
+        {
+          "source_type": "ANALYST_INFERENCE",
+          "locator": "Slides 2, 3, 7; analyst_inference",
+          "url": null
+        }
+      ]
+    },
+    {
+      "name": "Cohere Health",
+      "website": "https://www.coherehealth.com",
+      "category": "indirect",
+      "headquarters": "Boston, Massachusetts, USA",
+      "founded_year": "Unknown",
+      "target_customer": "Health plans (Medicare Advantage and commercial), with provider-facing portals",
+      "product": "AI-driven intelligent prior authorization and utilization management for payers",
+      "positioning": "Fixing prior authorization at the source by making payer review intelligent and instant",
+      "primary_use_case": "Solves the same denial-and-delay problem from the payer side — where Cohere runs a plan's utilization management, provider-side submission tooling becomes largely redundant for that plan's volume.",
+      "business_model": "Enterprise contracts with health plans (Not publicly disclosed)",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "Describes itself as a leader in clinical intelligence solutions for health plans and risk-bearing providers (, May 2025 ",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "$200 million total as of May 2025 (company press release); $213 million per PitchBook",
+      "latest_round": "$90 million Series C, announced 14 May 2025, led by Temasek",
+      "valuation": "Not publicly disclosed",
+      "investors": [
+        "Temasek",
+        "Deerfield Management",
+        "Define Ventures",
+        "Flare Capital Partners",
+        "Longitude Capital"
+      ],
+      "distribution": "Direct enterprise payer sales; providers are onboarded by plan mandate",
+      "geographic_reach": "United States",
+      "partnerships": "Utilization management partnership with Medical Mutual of Ohio and Rhyme (announced 2024)",
+      "strengths": [
+        "Payer mandate is a distribution channel Kestrel cannot buy (analyst_inference)",
+        "Approval authority sits with the payer, so auto-approvals happen at source (analyst_inference)",
+        "Well capitalised and established in payer UM (analyst_inference)"
+      ],
+      "weaknesses": [
+        "Coverage is plan-by-plan; clinics still juggle all other payers, leaving room for Kestrel (analyst_inference)",
+        "No chart reading or packet assembly inside the clinic's EHR (analyst_inference)",
+        "Provider-experience incentives are secondary to plan cost control (analyst_inference)"
+      ],
+      "defensibility": "Payer contracts and embedded position in the approval decision",
+      "threat_level": "medium",
+      "threat_rationale": "Erodes Kestrel's value per authorization as payer-side automation spreads, but does not contest the practice administrator's budget directly.",
+      "relevance": 0.55,
+      "confidence": 0.85,
+      "named_in_deck": true,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.prnewswire.com/news-releases/cohere-health-secur",
+          "url": "https://www.prnewswire.com/news-releases/cohere-health-secures-90m-series-c-to-expand-ai-powered-platform-transforming-health-plan-clinical-decision-making-302454527.html"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://pitchbook.com/profiles/company/399267-82",
+          "url": "https://pitchbook.com/profiles/company/399267-82"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.prnewswire.com/news-releases/cohere-health-medic",
+          "url": "https://www.prnewswire.com/news-releases/cohere-health-medical-mutual-and-rhyme-partner-on-utilization-management-transformation-302162495.html"
+        }
+      ]
+    },
+    {
+      "name": "Rhyme",
+      "website": "Unknown",
+      "category": "indirect",
+      "headquarters": "Columbus, Ohio, USA",
+      "founded_year": "Unknown",
+      "target_customer": "Health plans and their contracted provider networks",
+      "product": "Electronic prior authorization network with auto-approval and gold-carding workflows",
+      "positioning": "Connecting payers and providers on one authorization network",
+      "primary_use_case": "Two-sided payer-provider auth network offered to providers at little or no cost via payer sponsorship, undercutting the price of a standalone provider-side PA subscription.",
+      "business_model": "Payer-sponsored (low or no provider cost); specifics Not publicly disclosed",
+      "pricing": "Not publicly disclosed",
+      "revenue": "Not publicly disclosed",
+      "traction": "Formerly PriorAuthNow; a $6.2 million Series B was recorded in February 2019 (Crunchbase) — later rounds not verified, s",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "Payer partnerships push adoption to contracted providers",
+      "geographic_reach": "United States",
+      "partnerships": "Utilization management partnership with Cohere Health and Medical Mutual of Ohio (announced 2024)",
+      "strengths": [
+        "Payer-funded pricing pressures Kestrel's $105K ACV (analyst_inference)",
+        "Direct payer integrations enable real-time determinations (analyst_inference)",
+        "Provider adoption driven by plans, not by a 62-day sales cycle (Slide 9)"
+      ],
+      "weaknesses": [
+        "Coverage limited to participating plans (analyst_inference)",
+        "Thin clinical-documentation assembly; staff still gather the packet (analyst_inference)",
+        "Neutral-network positioning limits specialty workflow depth (analyst_inference)"
+      ],
+      "defensibility": "Payer network effects and sponsored economics",
+      "threat_level": "medium",
+      "threat_rationale": "Threatens Kestrel's pricing and per-auth fee model more than its product depth, and only within participating plans.",
+      "relevance": 0.55,
+      "confidence": 0.55,
+      "named_in_deck": true,
+      "sources": [
+        {
+          "source_type": "PITCH_DECK",
+          "locator": "Slide 8",
+          "url": null
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.crunchbase.com/organization/priorauthnow",
+          "url": "https://www.crunchbase.com/organization/priorauthnow"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://www.crunchbase.com/funding_round/priorauthnow-series",
+          "url": "https://www.crunchbase.com/funding_round/priorauthnow-series-b--02215a31"
+        },
+        {
+          "source_type": "PUBLIC_SOURCE",
+          "locator": "https://pitchbook.com/profiles/company/161205-49",
+          "url": "https://pitchbook.com/profiles/company/161205-49"
+        }
+      ]
+    }
+  ],
+  "competitive_dimensions": [
+    {
+      "dimension": "Product differentiation",
+      "advantage": "neutral",
+      "company_position": "Specialty-clinic exception queue: chart read, packet assembly, FHIR submission",
+      "competitor_position": "SamaCare/Infinx offer comparable PA workflow automation to same specialties",
+      "evidence": "Deck s4, s8 claims \"only solution purpose-built for the specialty clinic exception queue\"; competitive set shows Infinx explicitly targets ortho and cardiology",
+      "evidence_type": "company_claim",
+      "confidence": 0.45,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Technology differentiation",
+      "advantage": "competitor",
+      "company_position": "FHIR-first submission with portal-automation fallback; adaptive packet assembly",
+      "competitor_position": "Valer: mature all-payer portal automation with granted US patents; Tennr document AI",
+      "evidence": "Deck s4, s7 (patent application filed, not granted); competitive set cites Valer granted web-portal automation patents, founded 2012",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.5,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Scalability",
+      "advantage": "competitor",
+      "company_position": "142K authorisations since Jan 2025 across 8 clinics; per-payer rules config required",
+      "competitor_position": "Waystar/Availity/Infinx operate national payer connectivity at far larger volume",
+      "evidence": "Deck s5 volume claim; competitive set describes incumbent national payer networks",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.5,
+      "sustainability": "medium"
+    },
+    {
+      "dimension": "Customer differentiation",
+      "advantage": "neutral",
+      "company_position": "Focused on ortho, GI and cardiology specialty clinics; practice-administrator buyer",
+      "competitor_position": "Infinx targets the identical ortho/cardiology segment; SamaCare owns specialty drug PA",
+      "evidence": "Deck s5, s9; competitive set entry for Infinx (PRNewswire cite) naming ortho and cardiology",
+      "evidence_type": "stated_fact",
+      "confidence": 0.55,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Price advantage",
+      "advantage": "competitor",
+      "company_position": "$105K average contract value; per-provider SaaS plus per-auth fee, no list pricing",
+      "competitor_position": "Availity effectively free to clinic; EHR modules bundled; BPO variable-cost",
+      "evidence": "Deck s6 ACV and pricing; competitive set: Availity zero-price to provider, EHR bundled pricing undercuts a $105K standalone",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.6,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Ease of adoption",
+      "advantage": "competitor",
+      "company_position": "Net-new vendor requiring security review, rules config and staff exception workflow",
+      "competitor_position": "EHR module and in-house staff require no procurement or integration risk",
+      "evidence": "Deck s9 (62-day sales cycle, EHR channel unsigned); competitive set: manual process has zero integration risk, no vendor security review",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.55,
+      "sustainability": "medium"
+    },
+    {
+      "dimension": "Workflow integration",
+      "advantage": "competitor",
+      "company_position": "Reads the chart and works an exception queue; no signed EHR integration",
+      "competitor_position": "Epic/athena/ModMed modules sit inside order entry and control chart API access",
+      "evidence": "Deck s9: two EHR channel conversations, nothing signed; competitive set: EHR incumbents own the chart data and control API access",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.6,
+      "sustainability": "medium"
+    },
+    {
+      "dimension": "Performance advantage",
+      "advantage": "company",
+      "company_position": "91% first-pass approval vs 79% baseline; 4.2-hour vs 3.1-day median turnaround",
+      "competitor_position": "Comparable outcome benchmarks not disclosed for SamaCare, Infinx or Valer",
+      "evidence": "Deck s5, measured across 4 pilots, no external audit or citation",
+      "evidence_type": "company_claim",
+      "confidence": 0.45,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Speed to market",
+      "advantage": "neutral",
+      "company_position": "Live and revenue-generating since Jan 2025, ahead of the Jan 2027 CMS mandate",
+      "competitor_position": "SamaCare, Infinx and Valer (est. 2012) already live at commercial scale",
+      "evidence": "Deck s3/s5/s7 on CMS-0057-F tailwind and 2025 volume; competitive set founding dates and channels",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.5,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Capital efficiency",
+      "advantage": "unknown",
+      "company_position": "$840K ARR from 8 clinics; funding raised and burn not disclosed",
+      "competitor_position": "Tennr raised $101M Series C (IVP, a16z, Lightspeed, GV)",
+      "evidence": "Deck lists no funding, valuation or growth rate (NOT ESTABLISHED); Tennr funding per PRNewswire cite in competitive set",
+      "evidence_type": "missing",
+      "confidence": 0.3,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Distribution advantage",
+      "advantage": "competitor",
+      "company_position": "Direct sales to practice administrators, 62-day cycle; no signed channel partner",
+      "competitor_position": "SamaCare has GPO (Cencora) and EHR marketplace channels; Waystar has enterprise salesforce",
+      "evidence": "Deck s9: EHR channel unsigned, two conversations only; competitive set: SamaCare GPO/EHR marketplace, Infinx Epic listing",
+      "evidence_type": "stated_fact",
+      "confidence": 0.8,
+      "sustainability": "medium"
+    },
+    {
+      "dimension": "Customer relationships",
+      "advantage": "competitor",
+      "company_position": "8 paying clinics, 118% net revenue retention over an unstated period",
+      "competitor_position": "Waystar and EHR vendors hold existing contracts and renewal cycles at the same practices",
+      "evidence": "Deck s5/s6 (8 clinics, 118% NRR, company_claim); competitive set: incumbent contracts on the billing rail",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.55,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Proprietary data",
+      "advantage": "competitor",
+      "company_position": "Payer rules corpus over 240 plans, updated from 142K submissions with labelled denials",
+      "competitor_position": "SamaCare payer-form corpus and Infinx rules library built over far larger volume",
+      "evidence": "Deck s7 corpus claim; competitive set cites SamaCare large proprietary corpus and Infinx payer rules library",
+      "evidence_type": "company_claim",
+      "confidence": 0.5,
+      "sustainability": "medium"
+    },
+    {
+      "dimension": "Intellectual property",
+      "advantage": "competitor",
+      "company_position": "One US patent application filed, pending, covering adaptive packet assembly",
+      "competitor_position": "Valer holds granted US patents on web-portal automation",
+      "evidence": "Deck s7 (filed, not granted); competitive set cites Valer granted patents",
+      "evidence_type": "stated_fact",
+      "confidence": 0.75,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Switching costs",
+      "advantage": "competitor",
+      "company_position": "Moderate: payer rules config and staff habit; no stated lock-in or EHR depth",
+      "competitor_position": "EHR system-of-record lock-in; Waystar switching costs on the billing rail",
+      "evidence": "Inferred — deck states no contract terms or integration depth; competitive set defensibility notes",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.5,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Network effects",
+      "advantage": "competitor",
+      "company_position": "None; a data-scale flywheel only, improving with submission volume",
+      "competitor_position": "Availity and Rhyme hold genuine payer-provider network effects",
+      "evidence": "Analyst inference from deck s7 corpus claim; competitive set: Availity network effects, Rhyme payer network",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.6,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Regulatory position",
+      "advantage": "neutral",
+      "company_position": "SOC 2 Type II and HIPAA BAAs complete; CMS-0057-F is a tailwind, not exclusivity",
+      "competitor_position": "All named vendors meet the same bar; Cohere/Rhyme sit inside payer mandates",
+      "evidence": "Deck s3, s7; company itself frames CMS-0057-F as non-exclusive",
+      "evidence_type": "company_claim",
+      "confidence": 0.6,
+      "sustainability": "low"
+    },
+    {
+      "dimension": "Brand advantage",
+      "advantage": "competitor",
+      "company_position": "Unknown; 8 customers, specialty-society conferences as top-of-funnel",
+      "competitor_position": "SamaCare brand in specialty drug PA; Tennr high-visibility brand and partner ecosystem",
+      "evidence": "Deck s9 conference funnel; competitive set brand notes. No third-party recognition cited",
+      "evidence_type": "analyst_inference",
+      "confidence": 0.55,
+      "sustainability": "low"
+    }
+  ],
+  "market_map": {
+    "axis_x": {
+      "label": "Automation depth",
+      "low_label": "Human labor",
+      "high_label": "Autonomous AI"
+    },
+    "axis_y": {
+      "label": "Product scope",
+      "low_label": "Prior-auth point tool",
+      "high_label": "Full RCM/EHR platform"
+    },
+    "rationale": "Automation depth captures who actually removes the coordinator's keystrokes (analyst_inference: Kestrel's chart-reading packet assembly sits at the AI-native extreme), while product scope separates PA-only wedges from platform incumbents whose distribution and renewal leverage — not feature parity — is the real competitive moat.",
+    "entries": [
+      {
+        "name": "Kestrel Authorization Systems",
+        "x": 0.9,
+        "y": 0.2,
+        "is_company": true,
+        "category": "direct"
+      },
+      {
+        "name": "In-house authorization staff working payer portals and fax (manual process)",
+        "x": 0.03,
+        "y": 0.35,
+        "is_company": false,
+        "category": "substitute"
+      },
+      {
+        "name": "Doing nothing / waiting for the CMS-0057-F payer APIs (Jan 2027)",
+        "x": 0.02,
+        "y": 0.12,
+        "is_company": false,
+        "category": "substitute"
+      },
+      {
+        "name": "Outsourced RCM/prior-auth BPO (e.g. AGS Health, Savista, Access Healthcare)",
+        "x": 0.14,
+        "y": 0.62,
+        "is_company": false,
+        "category": "substitute"
+      },
+      {
+        "name": "EHR-embedded prior authorization module (Epic, athenahealth, ModMed, Nextech)",
+        "x": 0.33,
+        "y": 0.92,
+        "is_company": false,
+        "category": "incumbent"
+      },
+      {
+        "name": "Waystar",
+        "x": 0.55,
+        "y": 0.95,
+        "is_company": false,
+        "category": "incumbent"
+      },
+      {
+        "name": "Availity",
+        "x": 0.48,
+        "y": 0.74,
+        "is_company": false,
+        "category": "incumbent"
+      },
+      {
+        "name": "Infinx",
+        "x": 0.64,
+        "y": 0.68,
+        "is_company": false,
+        "category": "direct"
+      },
+      {
+        "name": "Valer (Voluware)",
+        "x": 0.58,
+        "y": 0.3,
+        "is_company": false,
+        "category": "direct"
+      },
+      {
+        "name": "SamaCare",
+        "x": 0.7,
+        "y": 0.26,
+        "is_company": false,
+        "category": "direct"
+      },
+      {
+        "name": "Tennr",
+        "x": 0.86,
+        "y": 0.42,
+        "is_company": false,
+        "category": "emerging"
+      },
+      {
+        "name": "Cohere Health",
+        "x": 0.8,
+        "y": 0.48,
+        "is_company": false,
+        "category": "indirect"
+      },
+      {
+        "name": "Rhyme",
+        "x": 0.68,
+        "y": 0.18,
+        "is_company": false,
+        "category": "indirect"
+      }
+    ]
+  },
+  "whitespace_opportunities": [
+    {
+      "opportunity": "Physician-owned ASCs and endoscopy centers: procedure auth, no listed vendor targets them",
+      "evidence": "Valer and Infinx anchor on mid-to-large hospitals/health systems and imaging centers; SamaCare is drug PA; no competitor in the set is positioned on ambulatory surgical/endoscopy procedure authorization",
+      "rationale": "Kestrel's 8 customers are already ortho and GI (3 ortho, 3 GI), the two specialties whose procedure volume sits in ASCs.",
+      "difficulty": "medium",
+      "investor_relevance": "Higher per-site auth volume raises usage-fee ARPU without lengthening the 62-day sales cycle",
+      "evidence_type": "analyst_inference"
+    },
+    {
+      "opportunity": "White-label PA engine inside specialty EHRs (ModMed, Nextech, athenahealth)",
+      "evidence": "EHR-embedded modules are the incumbent sold to the same administrator but have slow release cycles and shallow specialty denial logic (analyst_inference); Kestrel's EHR channel is listed as unsigned",
+      "rationale": "Specialty EHRs must ship CMS-0057-F FHIR PA by Jan 2027 and lack a denial-labelled rules corpus to build it credibly.",
+      "difficulty": "high",
+      "investor_relevance": "Converts direct 62-day cycle into channel distribution; the single largest CAC and multiple lever",
+      "evidence_type": "analyst_inference"
+    },
+    {
+      "opportunity": "Sell procedure-level denial benchmarks to specialty societies and payers",
+      "evidence": "Cohere and Rhyme hold plan-side data but plan-by-plan; provider-side competitors (Availity, Waystar, Valer) are portal/workflow-centric with no labelled denial corpus for procedure PA",
+      "rationale": "240-plan rules corpus from 142K submissions with labelled denials is a cross-payer asset none of the listed players hold provider-side.",
+      "difficulty": "medium",
+      "investor_relevance": "Second revenue line off an existing asset; data moat compounds with submission volume",
+      "evidence_type": "analyst_inference"
+    },
+    {
+      "opportunity": "Outcome-based pricing per approved authorization, undercutting BPO per-FTE economics",
+      "evidence": "BPO substitutes (AGS, Savista, Access Healthcare) scale labour linearly with no first-pass-rate compounding; Infinx is services-heavy with lower gross margin; no competitor prices on approval outcomes",
+      "rationale": "Only a vendor with denial-labelled training data can underwrite first-pass approval risk; services competitors cannot without margin collapse.",
+      "difficulty": "medium",
+      "investor_relevance": "Reframes budget from payroll line to variable cost; shortens cycle and defends gross margin",
+      "evidence_type": "analyst_inference"
+    }
+  ],
+  "risks": [
+    {
+      "concern": "Why won't the EHR vendor bundle this away?",
+      "current_risk": "Deck s9 shows two EHR channel conversations and nothing signed; Epic/athenahealth/ModMed own the chart data, the integration and the renewal conversation.",
+      "severity": "high"
+    },
+    {
+      "concern": "Can Availity's zero price and EHR bundling undercut the ACV?",
+      "current_risk": "Availity is free to providers and EHR modules are bundled; deck s6 ACV must be justified against a $0 anchor with no demonstrated structural cost advantage.",
+      "severity": "high"
+    },
+    {
+      "concern": "Is the differentiation real, or a feature against SamaCare/Infinx/Valer?",
+      "current_risk": "The 'only purpose-built for the specialty clinic exception queue' claim (s4, s8) is an uncited superlative; three direct competitors serve the same specialties, buyer and workflow.",
+      "severity": "high"
+    },
+    {
+      "concern": "Is the 10x performance claim externally verifiable?",
+      "current_risk": "Deck s5 performance figures are measured across 4 internal pilots with no external audit, citation or control baseline; the comparator is the manual process, not competing software.",
+      "severity": "high"
+    },
+    {
+      "concern": "Do 8 clinics and a filed patent create any switching cost?",
+      "current_risk": "Patent is filed not granted (s7) while Valer holds granted automation patents; 118% NRR rests on 8 accounts (s5/s6) with no disclosed contract terms or integration depth.",
+      "severity": "medium"
+    }
+  ],
+  "diligence_questions": [
+    {
+      "question": "Which two EHR vendors have you talked to, who is the named sponsor at each, what stage is the agreement at, and what happens to your 8 clinics if ModMed ships a bundled prior-auth module next renewal?",
+      "evidence_needed": "Signed or draft partnership/marketplace agreement (or written LOI) with a named EHR vendor, plus the API access terms governing your current integrations",
+      "relates_to": "Why won't the EHR vendor bundle this away?",
+      "severity": "high"
+    },
+    {
+      "question": "In the deals you won, what was the customer's stated alternative price, and how many of your 8 clinics were already using Availity when they signed?",
+      "evidence_needed": "Win/loss notes for all closed and lost deals showing the competing option and quoted price, plus gross margin per account at current pricing",
+      "relates_to": "Can Availity's zero price and EHR bundling undercut the ACV?",
+      "severity": "high"
+    },
+    {
+      "question": "Take the last three deals you competed for against SamaCare, Infinx or Valer — who won, and what specific capability decided each one?",
+      "evidence_needed": "Head-to-head bake-off results or evaluation scorecards from at least three named prospects who also evaluated a direct competitor",
+      "relates_to": "Is the differentiation real, or a feature against SamaCare/Infinx/Valer?",
+      "severity": "high"
+    },
+    {
+      "question": "For each of the four pilots, what was the pre-Kestrel turnaround baseline, how was it measured, and would two of those clinics let us verify it directly?",
+      "evidence_needed": "Raw pilot data with the pre-implementation baseline methodology, plus two reference calls with named pilot clinics confirming measured turnaround",
+      "relates_to": "Is the 10x performance claim externally verifiable?",
+      "severity": "high"
+    },
+    {
+      "question": "What are the contract lengths and termination terms across the 8 clinics, and if a clinic cancels tomorrow, what work does their coordinator have to redo?",
+      "evidence_needed": "The 8 executed customer contracts, logo-level retention and expansion history, and the patent examiner's first office action",
+      "relates_to": "Do 8 clinics and a filed patent create any switching cost?",
+      "severity": "medium"
+    }
+  ],
+  "positioning": {
+    "current_implied": "Vague speed-and-uniqueness claims: '10x faster than manual' and 'only solution built for the specialty clinic exception queue' — both uncited.",
+    "recommended": "For orthopedic, GI and cardiology clinics, Kestrel is the autonomous prior authorization layer that returns decisions in hours, not days, unlike in-house staff on payer portals, because its specialty-specific packet logic compounds per submission.",
+    "word_count": 34,
+    "proof_points_required": [
+      "Third-party or auditor-verified first-pass approval rate with denominator: authorizations submitted, by payer and specialty, over a stated period (currently 91% vs 79% is an unsourced company_claim, Evidenced Advantages)",
+      "Named list of payers reachable via FHIR API versus portal-automation fallback, with signed payer or clearinghouse agreements, to show coverage is contractual rather than scraped",
+      "Head-to-head turnaround and approval benchmark against the clinic's existing EHR-embedded PA module (Epic/ModMed/Nextech) run in the same practice",
+      "Net revenue retention and multi-specialty expansion rate (e.g. clinics starting in one service line that add a second within 12 months) to substantiate land-and-expand"
+    ],
+    "claims_to_avoid": [
+      "'10x faster than the manual process' — no stated baseline, denominator or measurement window; contradicts the more specific 4.2-hour vs 3.1-day figure and invites diligence failure",
+      "'The only solution purpose-built for the specialty clinic exception queue' — demonstrably false given Valer, Infinx and SamaCare all sell PA workflow with human exception handling",
+      "'91% vs 79% first-pass approval' as evidence of a moat — self-reported, no denominator, and any accuracy gap is replicable by incumbents with larger submission volume",
+      "'Autonomous' used to imply no staff labour — the product explicitly requires staff to work an exception queue; overclaiming here damages credibility with practice administrators"
+    ],
+    "competitive_narrative": "Kestrel is a faster front-end for a workflow that Waystar, Availity and the EHR vendors already own distribution for — so the investment question is whether specialty-specific packet accuracy accumulates into a defensible dataset before an incumbent bundles equivalent function into a system clinics already buy."
+  },
+  "consent": {
+    "status": "granted",
+    "public_research_permitted": true,
+    "external_transmission_permitted": false,
+    "timestamp": "2026-09-08T10:29:03+00:00"
+  },
+  "run": {
+    "llm_available": true,
+    "llm_calls": 8,
+    "research_performed": true,
+    "degraded": false,
+    "errors": [],
+    "warnings": [],
+    "notes": [
+      "Public research authorised across 16 approved domains.",
+      "Heuristic extraction recovered 12 of 34 profile fields.",
+      "Deliberately excluded as non-competing: Olive AI / Verata Health — Verata's PA assets were absorbed by Olive AI, which wound down in 2023; no longer an active competitor.; Myndshft — acquired by DrFirst (2024) and refocused on medication/pharmacy benefit workflows rather than specialty procedure authorization for clinics (https://www.prnewswire.com/news-releases/drfirst-acquires-myndshft-technologies-to-revolutionize-medication-management-by-addressing-both-pharmacy-and-medical-benefits-302120178.html).; Optum / Change Healthcare and R1 RCM — enterprise hospital and health-system contracts with minimum sizes far above a $105K specialty-clinic ACV; rarely in the same purchase decision as a practice administrator.; Anterior — sells clinical-review automation to payers, not to specialty clinics; never appears in the practice administrator's purchase decision.; Infinitus — voice AI agents mainly sold to payers, pharma and large providers for benefit verification and status calls, not clinic-side clinical packet assembly and submission.",
+      "Market structure: Provider-side prior authorization is a crowded, partially consolidating market where the real contest is against a free payer portal, an existing RCM/clearinghouse contract and an in-house auth coordinator rather than against another AI startup. Kestrel's seed-stage position ($840K ARR, 8 clinics, unsigned EHR channel) leaves it exposed on distribution to better-capitalised direct rivals (SamaCare, Infinx, Valer, Tennr) and to incumbents who can bundle 'good enough' authorization into a budget line they already own.",
+      "No reliable public detail found for: In-house authorization staff working payer portals and fax (manual process), Doing nothing / waiting for the CMS-0057-F payer APIs (Jan 2027), EHR-embedded prior authorization module (Epic, athenahealth, ModMed, Nextech), Outsourced RCM/prior-auth BPO (e.g. AGS Health, Savista, Access Healthcare)",
+      "Factual detail gathered for 12 of 12 competitors.",
+      "Strongest advantage: Accumulating payer rules corpus (240 plans, denial-labelled from 142K live submissions) paired with measured first-pass approval lift in a narrow specialty wedge — real but sub-scale and unaudited.",
+      "Most exposed: Distribution: direct-only sales at a 62-day cycle with no signed EHR or GPO channel, selling a $105K standalone against bundled EHR modules and a zero-price Availity.",
+      "Differentiation score 31/100 (Commodity / highly vulnerable), confidence 0.78.",
+      "Rejected as non-whitespace: Automated denial-appeal packet generation: plausible workflow gap, but Kestrel has not built it — a roadmap item, not whitespace.; Payer/health-plan-side utilization management: already served by Cohere Health and Rhyme, and Kestrel has no plan distribution.; 'Expand to more specialties' (derm, urology, oncology): generic adjacency with no identified competitor gap; oncology is SamaCare territory.",
+      "124 public source(s) consulted.",
+      "8 model call(s) to claude-opus-5 at effort 'high'; 16,572 input / 40,805 output tokens.",
+      "PDF rendered at layout budget 'full' (1 page)."
+    ],
+    "pdf_reduction_steps": []
+  },
+  "analysis_timestamp": "2026-09-08T10:29:05+00:00"
+}

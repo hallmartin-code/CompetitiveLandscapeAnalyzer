@@ -1,0 +1,16 @@
+# Railway service configuration.
+# Build is auto-detected by Nixpacks from requirements.txt + .python-version.
+
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "streamlit run app.py --server.port $PORT --server.address 0.0.0.0"
+# Streamlit's built-in health endpoint.
+healthcheckPath = "/_stcore/health"
+healthcheckTimeout = 120
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
+# A single analysis holds one long-lived websocket for several minutes, so a
+# rolling restart must not cut an in-flight run short.
+numReplicas = 1

@@ -1,0 +1,1167 @@
+{
+  "schema_version": "1.0",
+  "user": {
+    "name": null,
+    "email": null
+  },
+  "company": {
+    "name": "[COMPANY NAME]",
+    "website": "[WEBSITE]",
+    "sector": "[SECTOR]",
+    "subsector": "[SUBSECTOR]",
+    "stage": "[FUNDING STAGE]"
+  },
+  "analysis": {
+    "differentiation_score": "[INTEGER 0-100]",
+    "confidence_score": "[FLOAT 0.0-1.0]",
+    "band": "[SCORE BAND]",
+    "competitive_position": "[SHORT ASSESSMENT — two to three sentences an investor could read alone. States the real competitive position, including what is unproven. Approximately 330 characters at the full layout.]",
+    "recommended_positioning": "For [TARGET CUSTOMER], [COMPANY] is the [CATEGORY] that [PRIMARY BENEFIT], unlike [ALTERNATIVE], because [DEFENSIBLE DIFFERENTIATION]. Twenty to thirty-five words.",
+    "competitor_count": "[INTEGER]",
+    "score_explanation": "[SCORE EXPLANATION]",
+    "category_scores": [
+      {
+        "name": "Product / Technology",
+        "weight": 20,
+        "achievement": 0.5,
+        "weighted_points": 10.0,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      },
+      {
+        "name": "Customer Value Proposition",
+        "weight": 15,
+        "achievement": 0.5,
+        "weighted_points": 7.5,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      },
+      {
+        "name": "Competitive Performance",
+        "weight": 15,
+        "achievement": 0.5,
+        "weighted_points": 7.5,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      },
+      {
+        "name": "Distribution / GTM",
+        "weight": 10,
+        "achievement": 0.5,
+        "weighted_points": 5.0,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      },
+      {
+        "name": "Proprietary Data / IP",
+        "weight": 10,
+        "achievement": 0.5,
+        "weighted_points": 5.0,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      },
+      {
+        "name": "Switching Costs / Network Effects",
+        "weight": 10,
+        "achievement": 0.5,
+        "weighted_points": 5.0,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      },
+      {
+        "name": "Market Positioning",
+        "weight": 10,
+        "achievement": 0.5,
+        "weighted_points": 5.0,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      },
+      {
+        "name": "Sustainability of Advantage",
+        "weight": 10,
+        "achievement": 0.5,
+        "weighted_points": 5.0,
+        "rationale": "[CATEGORY RATIONALE]",
+        "evidence_backed": false
+      }
+    ],
+    "unevidenced_claims_discounted": [
+      "[UNEVIDENCED CLAIM EXCLUDED FROM SCORING]"
+    ]
+  },
+  "company_profile": {
+    "company_name": {
+      "value": "[COMPANY NAME]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "website": {
+      "value": "[WEBSITE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "headquarters": {
+      "value": "[HEADQUARTERS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "sector": {
+      "value": "[SECTOR]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "subsector": {
+      "value": "[SUBSECTOR]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "product_category": {
+      "value": "[PRODUCT CATEGORY]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "core_product": {
+      "value": "[CORE PRODUCT]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "problem_addressed": {
+      "value": "[PROBLEM ADDRESSED]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "target_customer": {
+      "value": "[TARGET CUSTOMER]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "buyer": {
+      "value": "[BUYER]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "end_user": {
+      "value": "[END USER]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "primary_use_cases": {
+      "value": "[PRIMARY USE CASES]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "business_model": {
+      "value": "[BUSINESS MODEL]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "pricing_model": {
+      "value": "[PRICING MODEL]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "revenue": {
+      "value": "[REVENUE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "revenue_growth": {
+      "value": "[REVENUE GROWTH]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "customers": {
+      "value": "[CUSTOMERS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "users": {
+      "value": "[USERS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "partnerships": {
+      "value": "[PARTNERSHIPS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "distribution_model": {
+      "value": "[DISTRIBUTION MODEL]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "geographic_markets": {
+      "value": "[GEOGRAPHIC MARKETS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "funding_raised": {
+      "value": "[FUNDING RAISED]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "current_round": {
+      "value": "[CURRENT ROUND]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "valuation": {
+      "value": "[VALUATION]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "key_ip": {
+      "value": "[KEY IP]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "regulatory_advantages": {
+      "value": "[REGULATORY ADVANTAGES]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "proprietary_data": {
+      "value": "[PROPRIETARY DATA]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "network_effects": {
+      "value": "[NETWORK EFFECTS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "switching_costs": {
+      "value": "[SWITCHING COSTS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "claimed_differentiation": {
+      "value": "[CLAIMED DIFFERENTIATION]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "funding_stage": {
+      "value": "[FUNDING STAGE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "raise_amount": {
+      "value": "[RAISE AMOUNT]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "traction": {
+      "value": "[TRACTION]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    },
+    "known_competitors": {
+      "value": "[KNOWN COMPETITORS]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sources": [
+        {
+          "source_type": "UNKNOWN",
+          "locator": "[SOURCE]",
+          "url": null,
+          "excerpt": ""
+        }
+      ]
+    }
+  },
+  "profile_gaps": [],
+  "extraction_notes": [],
+  "competitors": [
+    {
+      "name": "[COMPETITOR 1 — SUBSTITUTE]",
+      "website": null,
+      "category": "substitute",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "[TARGET CUSTOMER]",
+      "product": "[CORE PRODUCT / APPROACH]",
+      "positioning": "[POSITIONING]",
+      "primary_use_case": "[WHY IT COMPETES FOR THE SAME BUDGET]",
+      "business_model": "Unknown",
+      "pricing": "[PRICING OR 'Not publicly disclosed']",
+      "revenue": "Not publicly disclosed",
+      "traction": "[TRACTION OR 'Not publicly disclosed']",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "[DISTRIBUTION]",
+      "geographic_reach": "Unknown",
+      "partnerships": "Not publicly disclosed",
+      "strengths": [
+        "[KEY STRENGTH]"
+      ],
+      "weaknesses": [
+        "[KEY WEAKNESS]"
+      ],
+      "defensibility": "[DEFENSIBILITY]",
+      "threat_level": "high",
+      "threat_rationale": "[THREAT RATIONALE]",
+      "relevance": 0.5,
+      "confidence": 0.0,
+      "named_in_deck": false,
+      "sources": []
+    },
+    {
+      "name": "[COMPETITOR 2 — INCUMBENT]",
+      "website": null,
+      "category": "incumbent",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "[TARGET CUSTOMER]",
+      "product": "[CORE PRODUCT / APPROACH]",
+      "positioning": "[POSITIONING]",
+      "primary_use_case": "[WHY IT COMPETES FOR THE SAME BUDGET]",
+      "business_model": "Unknown",
+      "pricing": "[PRICING OR 'Not publicly disclosed']",
+      "revenue": "Not publicly disclosed",
+      "traction": "[TRACTION OR 'Not publicly disclosed']",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "[DISTRIBUTION]",
+      "geographic_reach": "Unknown",
+      "partnerships": "Not publicly disclosed",
+      "strengths": [
+        "[KEY STRENGTH]"
+      ],
+      "weaknesses": [
+        "[KEY WEAKNESS]"
+      ],
+      "defensibility": "[DEFENSIBILITY]",
+      "threat_level": "high",
+      "threat_rationale": "[THREAT RATIONALE]",
+      "relevance": 0.5,
+      "confidence": 0.0,
+      "named_in_deck": false,
+      "sources": []
+    },
+    {
+      "name": "[COMPETITOR 3 — DIRECT]",
+      "website": null,
+      "category": "direct",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "[TARGET CUSTOMER]",
+      "product": "[CORE PRODUCT / APPROACH]",
+      "positioning": "[POSITIONING]",
+      "primary_use_case": "[WHY IT COMPETES FOR THE SAME BUDGET]",
+      "business_model": "Unknown",
+      "pricing": "[PRICING OR 'Not publicly disclosed']",
+      "revenue": "Not publicly disclosed",
+      "traction": "[TRACTION OR 'Not publicly disclosed']",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "[DISTRIBUTION]",
+      "geographic_reach": "Unknown",
+      "partnerships": "Not publicly disclosed",
+      "strengths": [
+        "[KEY STRENGTH]"
+      ],
+      "weaknesses": [
+        "[KEY WEAKNESS]"
+      ],
+      "defensibility": "[DEFENSIBILITY]",
+      "threat_level": "high",
+      "threat_rationale": "[THREAT RATIONALE]",
+      "relevance": 0.5,
+      "confidence": 0.0,
+      "named_in_deck": false,
+      "sources": []
+    },
+    {
+      "name": "[COMPETITOR 4 — INDIRECT]",
+      "website": null,
+      "category": "indirect",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "[TARGET CUSTOMER]",
+      "product": "[CORE PRODUCT / APPROACH]",
+      "positioning": "[POSITIONING]",
+      "primary_use_case": "[WHY IT COMPETES FOR THE SAME BUDGET]",
+      "business_model": "Unknown",
+      "pricing": "[PRICING OR 'Not publicly disclosed']",
+      "revenue": "Not publicly disclosed",
+      "traction": "[TRACTION OR 'Not publicly disclosed']",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "[DISTRIBUTION]",
+      "geographic_reach": "Unknown",
+      "partnerships": "Not publicly disclosed",
+      "strengths": [
+        "[KEY STRENGTH]"
+      ],
+      "weaknesses": [
+        "[KEY WEAKNESS]"
+      ],
+      "defensibility": "[DEFENSIBILITY]",
+      "threat_level": "medium",
+      "threat_rationale": "[THREAT RATIONALE]",
+      "relevance": 0.5,
+      "confidence": 0.0,
+      "named_in_deck": false,
+      "sources": []
+    },
+    {
+      "name": "[COMPETITOR 5 — EMERGING]",
+      "website": null,
+      "category": "emerging",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "[TARGET CUSTOMER]",
+      "product": "[CORE PRODUCT / APPROACH]",
+      "positioning": "[POSITIONING]",
+      "primary_use_case": "[WHY IT COMPETES FOR THE SAME BUDGET]",
+      "business_model": "Unknown",
+      "pricing": "[PRICING OR 'Not publicly disclosed']",
+      "revenue": "Not publicly disclosed",
+      "traction": "[TRACTION OR 'Not publicly disclosed']",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "[DISTRIBUTION]",
+      "geographic_reach": "Unknown",
+      "partnerships": "Not publicly disclosed",
+      "strengths": [
+        "[KEY STRENGTH]"
+      ],
+      "weaknesses": [
+        "[KEY WEAKNESS]"
+      ],
+      "defensibility": "[DEFENSIBILITY]",
+      "threat_level": "medium",
+      "threat_rationale": "[THREAT RATIONALE]",
+      "relevance": 0.5,
+      "confidence": 0.0,
+      "named_in_deck": false,
+      "sources": []
+    },
+    {
+      "name": "[COMPETITOR 6 — DIRECT]",
+      "website": null,
+      "category": "direct",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "[TARGET CUSTOMER]",
+      "product": "[CORE PRODUCT / APPROACH]",
+      "positioning": "[POSITIONING]",
+      "primary_use_case": "[WHY IT COMPETES FOR THE SAME BUDGET]",
+      "business_model": "Unknown",
+      "pricing": "[PRICING OR 'Not publicly disclosed']",
+      "revenue": "Not publicly disclosed",
+      "traction": "[TRACTION OR 'Not publicly disclosed']",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "[DISTRIBUTION]",
+      "geographic_reach": "Unknown",
+      "partnerships": "Not publicly disclosed",
+      "strengths": [
+        "[KEY STRENGTH]"
+      ],
+      "weaknesses": [
+        "[KEY WEAKNESS]"
+      ],
+      "defensibility": "[DEFENSIBILITY]",
+      "threat_level": "low",
+      "threat_rationale": "[THREAT RATIONALE]",
+      "relevance": 0.5,
+      "confidence": 0.0,
+      "named_in_deck": false,
+      "sources": []
+    },
+    {
+      "name": "[COMPETITOR 7 — INCUMBENT]",
+      "website": null,
+      "category": "incumbent",
+      "headquarters": "Unknown",
+      "founded_year": "Unknown",
+      "target_customer": "[TARGET CUSTOMER]",
+      "product": "[CORE PRODUCT / APPROACH]",
+      "positioning": "[POSITIONING]",
+      "primary_use_case": "[WHY IT COMPETES FOR THE SAME BUDGET]",
+      "business_model": "Unknown",
+      "pricing": "[PRICING OR 'Not publicly disclosed']",
+      "revenue": "Not publicly disclosed",
+      "traction": "[TRACTION OR 'Not publicly disclosed']",
+      "customer_count": "Not publicly disclosed",
+      "user_count": "Not publicly disclosed",
+      "funding": "Not publicly disclosed",
+      "latest_round": "Not publicly disclosed",
+      "valuation": "Not publicly disclosed",
+      "investors": [],
+      "distribution": "[DISTRIBUTION]",
+      "geographic_reach": "Unknown",
+      "partnerships": "Not publicly disclosed",
+      "strengths": [
+        "[KEY STRENGTH]"
+      ],
+      "weaknesses": [
+        "[KEY WEAKNESS]"
+      ],
+      "defensibility": "[DEFENSIBILITY]",
+      "threat_level": "low",
+      "threat_rationale": "[THREAT RATIONALE]",
+      "relevance": 0.5,
+      "confidence": 0.0,
+      "named_in_deck": false,
+      "sources": []
+    }
+  ],
+  "competitive_dimensions": [
+    {
+      "dimension": "Product differentiation",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Technology differentiation",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Scalability",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Customer differentiation",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Price advantage",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Ease of adoption",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Workflow integration",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Performance advantage",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Speed to market",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Capital efficiency",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Distribution advantage",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Customer relationships",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Proprietary data",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Intellectual property",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Switching costs",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Network effects",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Regulatory position",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    },
+    {
+      "dimension": "Brand advantage",
+      "advantage": "unknown",
+      "company_position": "[COMPANY POSITION]",
+      "competitor_position": "[COMPETITOR POSITION]",
+      "evidence": "[EVIDENCE]",
+      "evidence_type": "unverified",
+      "confidence": 0.0,
+      "sustainability": "unknown"
+    }
+  ],
+  "market_map": {
+    "axis_x": {
+      "label": "[X AXIS]",
+      "low_label": "[LOW]",
+      "high_label": "[HIGH]"
+    },
+    "axis_y": {
+      "label": "[Y AXIS]",
+      "low_label": "[LOW]",
+      "high_label": "[HIGH]"
+    },
+    "rationale": "[WHY THESE AXES SEPARATE THIS MARKET]",
+    "entries": [
+      {
+        "name": "[COMPETITOR 1]",
+        "x": 0.12,
+        "y": 0.2,
+        "is_company": false,
+        "category": "substitute"
+      },
+      {
+        "name": "[COMPETITOR 2]",
+        "x": 0.3,
+        "y": 0.72,
+        "is_company": false,
+        "category": "incumbent"
+      },
+      {
+        "name": "[COMPETITOR 3]",
+        "x": 0.55,
+        "y": 0.45,
+        "is_company": false,
+        "category": "direct"
+      },
+      {
+        "name": "[COMPETITOR 4]",
+        "x": 0.72,
+        "y": 0.82,
+        "is_company": false,
+        "category": "indirect"
+      },
+      {
+        "name": "[COMPETITOR 5]",
+        "x": 0.86,
+        "y": 0.3,
+        "is_company": false,
+        "category": "emerging"
+      },
+      {
+        "name": "[COMPETITOR 6]",
+        "x": 0.45,
+        "y": 0.15,
+        "is_company": false,
+        "category": "direct"
+      },
+      {
+        "name": "[COMPETITOR 7]",
+        "x": 0.65,
+        "y": 0.62,
+        "is_company": false,
+        "category": "incumbent"
+      },
+      {
+        "name": "[COMPANY]",
+        "x": 0.5,
+        "y": 0.5,
+        "is_company": true,
+        "category": "direct"
+      }
+    ]
+  },
+  "whitespace_opportunities": [
+    {
+      "opportunity": "[WHITESPACE OPPORTUNITY 1 — ≤14 WORDS]",
+      "evidence": "[THE GAP IN THE COMPETITIVE SET THAT IMPLIES IT]",
+      "rationale": "[WHY THIS COMPANY COULD TAKE IT]",
+      "difficulty": "medium",
+      "investor_relevance": "[WHAT IT CHANGES ABOUT THE RETURN CASE]",
+      "evidence_type": "analyst_inference"
+    },
+    {
+      "opportunity": "[WHITESPACE OPPORTUNITY 2 — ≤14 WORDS]",
+      "evidence": "[THE GAP IN THE COMPETITIVE SET THAT IMPLIES IT]",
+      "rationale": "[WHY THIS COMPANY COULD TAKE IT]",
+      "difficulty": "high",
+      "investor_relevance": "[WHAT IT CHANGES ABOUT THE RETURN CASE]",
+      "evidence_type": "analyst_inference"
+    },
+    {
+      "opportunity": "[WHITESPACE OPPORTUNITY 3 — ≤14 WORDS]",
+      "evidence": "[THE GAP IN THE COMPETITIVE SET THAT IMPLIES IT]",
+      "rationale": "[WHY THIS COMPANY COULD TAKE IT]",
+      "difficulty": "low",
+      "investor_relevance": "[WHAT IT CHANGES ABOUT THE RETURN CASE]",
+      "evidence_type": "analyst_inference"
+    }
+  ],
+  "risks": [
+    {
+      "concern": "[INVESTOR CONCERN 1 — ≤12 WORDS]",
+      "current_risk": "[CURRENT RISK — WHAT THE EVIDENCE ESTABLISHES TODAY (A STATEMENT)]",
+      "severity": "high"
+    },
+    {
+      "concern": "[INVESTOR CONCERN 2 — ≤12 WORDS]",
+      "current_risk": "[CURRENT RISK — WHAT THE EVIDENCE ESTABLISHES TODAY (A STATEMENT)]",
+      "severity": "high"
+    },
+    {
+      "concern": "[INVESTOR CONCERN 3 — ≤12 WORDS]",
+      "current_risk": "[CURRENT RISK — WHAT THE EVIDENCE ESTABLISHES TODAY (A STATEMENT)]",
+      "severity": "medium"
+    },
+    {
+      "concern": "[INVESTOR CONCERN 4 — ≤12 WORDS]",
+      "current_risk": "[CURRENT RISK — WHAT THE EVIDENCE ESTABLISHES TODAY (A STATEMENT)]",
+      "severity": "medium"
+    },
+    {
+      "concern": "[INVESTOR CONCERN 5 — ≤12 WORDS]",
+      "current_risk": "[CURRENT RISK — WHAT THE EVIDENCE ESTABLISHES TODAY (A STATEMENT)]",
+      "severity": "low"
+    }
+  ],
+  "diligence_questions": [
+    {
+      "question": "[DILIGENCE QUESTION — ONE SPECIFIC, ANSWERABLE QUESTION]",
+      "evidence_needed": "[EVIDENCE NEEDED — A NAMED ARTEFACT THAT WOULD SETTLE IT]",
+      "relates_to": "[INVESTOR CONCERN 1 — ≤12 WORDS]",
+      "severity": "high"
+    },
+    {
+      "question": "[DILIGENCE QUESTION — ONE SPECIFIC, ANSWERABLE QUESTION]",
+      "evidence_needed": "[EVIDENCE NEEDED — A NAMED ARTEFACT THAT WOULD SETTLE IT]",
+      "relates_to": "[INVESTOR CONCERN 2 — ≤12 WORDS]",
+      "severity": "high"
+    },
+    {
+      "question": "[DILIGENCE QUESTION — ONE SPECIFIC, ANSWERABLE QUESTION]",
+      "evidence_needed": "[EVIDENCE NEEDED — A NAMED ARTEFACT THAT WOULD SETTLE IT]",
+      "relates_to": "[INVESTOR CONCERN 3 — ≤12 WORDS]",
+      "severity": "medium"
+    },
+    {
+      "question": "[DILIGENCE QUESTION — ONE SPECIFIC, ANSWERABLE QUESTION]",
+      "evidence_needed": "[EVIDENCE NEEDED — A NAMED ARTEFACT THAT WOULD SETTLE IT]",
+      "relates_to": "[INVESTOR CONCERN 4 — ≤12 WORDS]",
+      "severity": "medium"
+    },
+    {
+      "question": "[DILIGENCE QUESTION — ONE SPECIFIC, ANSWERABLE QUESTION]",
+      "evidence_needed": "[EVIDENCE NEEDED — A NAMED ARTEFACT THAT WOULD SETTLE IT]",
+      "relates_to": "[INVESTOR CONCERN 5 — ≤12 WORDS]",
+      "severity": "low"
+    }
+  ],
+  "positioning": {
+    "current_implied": "[CURRENT IMPLIED POSITIONING]",
+    "recommended": "For [TARGET CUSTOMER], [COMPANY] is the [CATEGORY] that [PRIMARY BENEFIT], unlike [ALTERNATIVE], because [DEFENSIBLE DIFFERENTIATION]. Twenty to thirty-five words.",
+    "word_count": 0,
+    "proof_points_required": [
+      "[PROOF POINT REQUIRED]"
+    ],
+    "claims_to_avoid": [
+      "[CLAIM TO AVOID — AND WHY IT FAILS]",
+      "[CLAIM TO AVOID — AND WHY IT FAILS]"
+    ],
+    "competitive_narrative": "[COMPETITIVE NARRATIVE — ONE SENTENCE]"
+  },
+  "consent": {
+    "status": "not_provided",
+    "public_research_permitted": false,
+    "external_transmission_permitted": false,
+    "timestamp": null
+  },
+  "run": {
+    "llm_available": "[BOOLEAN]",
+    "llm_calls": "[INTEGER]",
+    "research_performed": "[BOOLEAN]",
+    "degraded": "[BOOLEAN]",
+    "errors": [],
+    "warnings": [],
+    "notes": [],
+    "pdf_reduction_steps": []
+  },
+  "analysis_timestamp": "[ISO 8601 TIMESTAMP]"
+}
