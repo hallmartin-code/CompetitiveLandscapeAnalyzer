@@ -227,7 +227,7 @@ if st.session_state.stage == "input":
 
     _card(
         theme.hero(
-            "Deck Analyzer",
+            "Competitive Landscape Analyzer",
             'Pitch Deck<span class="arrow">&rarr;</span>'
             '<span class="to">Investor One&#8209;Pager</span>',
             "Upload a pitch deck and get a polished single-page investor PDF, "
